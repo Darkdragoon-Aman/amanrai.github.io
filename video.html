@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Aman Videos</title>
+    <link rel="stylesheet" href="css/video-style.css">
+    <SCRIPT language="JavaScript">
+      var password;
+      var pass1="amangod";
+      
+      password=prompt('Please enter your password to view this page!',' ');
+      
+      if (password==pass1)
+        alert('Password Correct! Click OK to enter!');
+      else
+         {
+          window.location="index.html";
+          }
+      
+      </SCRIPT>
+</head>
+<body>
+    <header>
+        <h1> <a href="index.html" > <img class="back" src="image/back.png" alt="back"></a> Video Gallery</h1>
+    </header>
+    <main>
+        <video class="box" width="320" height="240" controls>
+            <source src="image/video/How to play like a noob BED WAR.mp4" type="video/mp4">
+          </video>    
+          <video class="box" width="320" height="240" controls>
+            <source src="image/video/image_2021-08-31_17-21-37.mp4" type="video/mp4">
+          </video>    
+          <video class="box" width="320" height="240" controls>
+            <source src="image/video/TEACHER VS BATMEEZ STUDENTS.mp4" type="video/mp4">
+          </video>    
+          <video class="box" width="320" height="240" controls>
+            <source src="image/video/video_2021-09-30_09-30-38.mp4" type="video/mp4">
+          </video>    
+    </main>
+</body>
+</html>

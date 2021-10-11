@@ -1,0 +1,76 @@
+.headnameaman{
+    background-color: #2D4059;
+    border-radius: 50px;
+    padding: 5px;
+    font-family: 'Patua One';
+    font-weight: bold;
+    font-size: 30px;
+    color: #EA5455;
+   }
+
+body {
+  background: url('../image/finalbgcover.png');
+    background-color:  #fbfbfde7;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+  }
+
+.navigation li{
+  float: left;
+  list-style: none;
+  margin: 4px;
+  position: relative;
+  right: -445px;
+}
+
+.navigation li a{
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: block;
+  padding: 10px;
+  background-color: rgb(44, 62, 87)
+}
+
+
+li a:hover {
+  background-color: #111;}
+
+.navigation ul{
+  overflow: auto;
+}
+
+.navigation{
+  background-color: #2D4059;
+  
+  border-radius: 10px;
+  position: relative;
+  left: 430px;
+  top: 320px;
+  width: 75%;
+}
+
+
+
+.vyom{
+  font-family: 'Fredoka One', cursive;
+  text-align: center;
+  position: relative;
+  top: 100px;
+  font-size: 18.8px;
+}
+
+.yo{
+  position: relative;
+  bottom: -589px;
+  right: -400px;
+}
+
+
+.yo2{
+  position: relative;
+  bottom: -589px;
+  right: -1100px;
+}
